@@ -1,5 +1,5 @@
 from django.contrib import admin
-from siam.models import Consults, Service
+from siam.models import Consult, Service
 
 admin.site.register(Service)
-admin.site.register(Consults)
+admin.site.register(Consult)

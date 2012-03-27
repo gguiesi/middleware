@@ -4,7 +4,7 @@ class Service(models.Model):
     name = models.CharField(max_length=200)
     url = models.CharField(max_length=200)
     
-class Consults(models.Model):
+class Consult(models.Model):
     service = models.ForeignKey(Service)
     name = models.CharField(max_length=200)
     parameters = models.CharField(max_length=200)
